@@ -1,7 +1,7 @@
 import numpy as np 
 from flask import jsonify, request, Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 import joblib
 
 # Define the filename for the exported model
