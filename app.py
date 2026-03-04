@@ -1,5 +1,5 @@
 import numpy as np 
-from flask import jsonify, request
+from flask import jsonify, request, Flask
 
 app = Flask(_name_)
 import joblib
